@@ -93,3 +93,30 @@ The Airbnb Clone Project is a full-stack web application that simulates a real-w
 
 - **Payment Integration**  
   Manages secure payments and links them to bookings with real-time status updates.
+
+## API Security
+
+### Security Measures:
+- **Authentication**: Use token-based authentication (JWT) to verify user identity.
+- **Authorization**: Role-based access control to restrict endpoints.
+- **Rate Limiting**: Prevent abuse by limiting requests per user/IP.
+
+### Importance:
+- **Authentication** ensures only verified users can access resources.
+- **Authorization** prevents users from performing actions beyond their role.
+- **Rate Limiting** protects the system from DDoS or brute-force attacks.
+- **Secure Payments** protect user financial data and prevent fraud.
+
+## CI/CD Pipeline
+
+### What It Is:
+CI/CD (Continuous Integration/Continuous Deployment) automates testing, building, and deployment processes to improve reliability and speed.
+
+### Tools:
+- **GitHub Actions**: Automate testing and deployments on code changes.
+- **Docker**: Containerize the app to ensure consistency across environments.
+
+### Why It Matters:
+- Reduces human error
+- Speeds up delivery
+- Ensures tested, production-ready code is deployed every time
